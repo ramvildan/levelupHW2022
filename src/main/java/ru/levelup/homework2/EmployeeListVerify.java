@@ -13,8 +13,7 @@ public class EmployeeListVerify {
                 new Employee("Raz Razputin", 9),
                 new Employee("Gloria Jeans", 15)));
 
-        for (Employee employee : employees) {
-            Employee.printEmployee(employees, employee.getWorkAge());
-        }
+        Employee.printEmployee(employees);
+        Employee.listIterator(employees);
     }
 }

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="587e44b4-ed55-49ce-9305-a4bdd08d1ca0" name="Changes" comment="Initial commit" />
+    <list default="true" id="587e44b4-ed55-49ce-9305-a4bdd08d1ca0" name="Changes" comment="EmployeeListVerify.java UPD" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,11 +37,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/ramil/IdeaProjects/levelupHW2022",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+    "nodejs_package_manager_path": "npm",
+    "spring.configuration.checksum": "aee76979d6b9ced535aa42eeed4a45ba"
   }
 }]]></component>
   <component name="RunManager">
@@ -73,6 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1669983043444</updated>
       <workItem from="1669983044888" duration="2448000" />
+      <workItem from="1669986404782" duration="303000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1669984467569</created>
@@ -88,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669985350607</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="EmployeeListVerify.java UPD">
+      <created>1669986576202</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669986576202</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +117,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="workspace.xml" />
+    <MESSAGE value="EmployeeListVerify.java UPD" />
+    <option name="LAST_COMMIT_MESSAGE" value="EmployeeListVerify.java UPD" />
   </component>
 </project>
