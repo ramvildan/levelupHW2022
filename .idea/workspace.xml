@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="587e44b4-ed55-49ce-9305-a4bdd08d1ca0" name="Changes" comment="EmployeeListVerify.java UPD" />
+    <list default="true" id="587e44b4-ed55-49ce-9305-a4bdd08d1ca0" name="Changes" comment="Employee.java -&gt; listIterator method">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/levelup/homework2/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/levelup/homework2/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/levelup/homework2/EmployeeListVerify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/levelup/homework2/EmployeeListVerify.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,21 +35,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/ramil/IdeaProjects/levelupHW2022",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "spring.configuration.checksum": "aee76979d6b9ced535aa42eeed4a45ba"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ramil/IdeaProjects/levelupHW2022&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;aee76979d6b9ced535aa42eeed4a45ba&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="EmployeeListVerify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.levelup.homework2.EmployeeListVerify" />
@@ -76,6 +80,9 @@
       <updated>1669983043444</updated>
       <workItem from="1669983044888" duration="2448000" />
       <workItem from="1669986404782" duration="303000" />
+      <workItem from="1670249356917" duration="4935000" />
+      <workItem from="1670323476463" duration="4000000" />
+      <workItem from="1670347348969" duration="4087000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1669984467569</created>
@@ -98,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669986576202</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Employee.java -&gt; listIterator method">
+      <created>1670249623144</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670249623144</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +132,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="workspace.xml" />
     <MESSAGE value="EmployeeListVerify.java UPD" />
-    <option name="LAST_COMMIT_MESSAGE" value="EmployeeListVerify.java UPD" />
+    <MESSAGE value="Employee.java -&gt; listIterator method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Employee.java -&gt; listIterator method" />
   </component>
 </project>
