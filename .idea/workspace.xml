@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="587e44b4-ed55-49ce-9305-a4bdd08d1ca0" name="Changes" comment="Add ListIterator method" />
+    <list default="true" id="587e44b4-ed55-49ce-9305-a4bdd08d1ca0" name="Changes" comment="Fixed reverseListIterator method">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,7 +82,7 @@
       <workItem from="1670249356917" duration="4935000" />
       <workItem from="1670323476463" duration="4000000" />
       <workItem from="1670347348969" duration="4505000" />
-      <workItem from="1670409373606" duration="5542000" />
+      <workItem from="1670409373606" duration="6809000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1669984467569</created>
@@ -123,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670414733155</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Fixed reverseListIterator method">
+      <created>1670415227411</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1670415227411</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +156,7 @@
     <MESSAGE value="Employee.java -&gt; listIterator method" />
     <MESSAGE value="Correct printEmployee method" />
     <MESSAGE value="Add ListIterator method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add ListIterator method" />
+    <MESSAGE value="Fixed reverseListIterator method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed reverseListIterator method" />
   </component>
 </project>
