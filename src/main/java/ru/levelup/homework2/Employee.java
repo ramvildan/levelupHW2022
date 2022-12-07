@@ -48,7 +48,7 @@ public class Employee {
         System.out.println("Sorted list by Stream API: ");
         employees.stream()
                 .sorted(Comparator.comparingInt(employees::indexOf).reversed())
-                .filter(employee -> employees.indexOf(employee) % 2 == 0)
+                .filter(employee -> employees.indexOf(employee) % 2 != 0)
                 .forEach(System.out::println);
 
 //        new LinkedList<>(employees)

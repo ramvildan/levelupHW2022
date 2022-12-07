@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="587e44b4-ed55-49ce-9305-a4bdd08d1ca0" name="Changes" comment="Correct printEmployee method">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/levelup/homework2/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/levelup/homework2/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/levelup/homework2/EmployeeListVerify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/levelup/homework2/EmployeeListVerify.java" afterDir="false" />
-    </list>
+    <list default="true" id="587e44b4-ed55-49ce-9305-a4bdd08d1ca0" name="Changes" comment="Add ListIterator method" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,7 +79,7 @@
       <workItem from="1670249356917" duration="4935000" />
       <workItem from="1670323476463" duration="4000000" />
       <workItem from="1670347348969" duration="4505000" />
-      <workItem from="1670409373606" duration="5032000" />
+      <workItem from="1670409373606" duration="5542000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1669984467569</created>
@@ -120,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670352056091</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add ListIterator method">
+      <created>1670414733155</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670414733155</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +145,7 @@
     <MESSAGE value="EmployeeListVerify.java UPD" />
     <MESSAGE value="Employee.java -&gt; listIterator method" />
     <MESSAGE value="Correct printEmployee method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correct printEmployee method" />
+    <MESSAGE value="Add ListIterator method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add ListIterator method" />
   </component>
 </project>
