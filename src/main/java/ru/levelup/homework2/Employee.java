@@ -2,10 +2,8 @@ package ru.levelup.homework2;
 
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
-import lombok.ToString;
 
 import java.util.*;
-import java.util.function.Function;
 import java.util.stream.Collectors;
 
 @Data
@@ -34,20 +32,27 @@ public class Employee {
                 .forEach(System.out::println);
     }
 
-//    public static void listIterator (List<Employee> employees) {
-//
+    public static void reverseListIterator(List<Employee> employees) {
+
+//        int counter = 0;
 //        for (ListIterator<Employee> iterator = employees.listIterator(employees.size()); iterator.hasPrevious(); ){
-//            iterator.next();
-//            int previous = iterator.previousIndex();
+//            iterator.previous();
 //
-//            if (previous % 2 != 0) {
+//            if (counter % 2 == 0) {
 //                iterator.remove();
 //            }
+//            counter++;
 //        }
-//        System.out.println("Sorted list: " + employees);
-//
-////        new LinkedList<>(employees)
-////                .descendingIterator()
-////                .forEachRemaining(System.out::println);
-//    }
+//        System.out.println("Sorted list by Iterator: " + employees);
+//        System.out.println("-----");
+        System.out.println("Sorted list by Stream API: ");
+        employees.stream()
+                .sorted(Comparator.comparingInt(employees::indexOf).reversed())
+                .filter(employee -> employees.indexOf(employee) % 2 == 0)
+                .forEach(System.out::println);
+
+//        new LinkedList<>(employees)
+//                .descendingIterator()
+//                .forEachRemaining(System.out::println);
+    }
 }

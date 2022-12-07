@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="587e44b4-ed55-49ce-9305-a4bdd08d1ca0" name="Changes" comment="Employee.java -&gt; listIterator method">
+    <list default="true" id="587e44b4-ed55-49ce-9305-a4bdd08d1ca0" name="Changes" comment="Correct printEmployee method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/levelup/homework2/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/levelup/homework2/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/levelup/homework2/EmployeeListVerify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/levelup/homework2/EmployeeListVerify.java" afterDir="false" />
@@ -82,7 +82,8 @@
       <workItem from="1669986404782" duration="303000" />
       <workItem from="1670249356917" duration="4935000" />
       <workItem from="1670323476463" duration="4000000" />
-      <workItem from="1670347348969" duration="4087000" />
+      <workItem from="1670347348969" duration="4505000" />
+      <workItem from="1670409373606" duration="5032000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1669984467569</created>
@@ -112,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670249623144</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Correct printEmployee method">
+      <created>1670352056091</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670352056091</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +141,7 @@
     <MESSAGE value="workspace.xml" />
     <MESSAGE value="EmployeeListVerify.java UPD" />
     <MESSAGE value="Employee.java -&gt; listIterator method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Employee.java -&gt; listIterator method" />
+    <MESSAGE value="Correct printEmployee method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correct printEmployee method" />
   </component>
 </project>
