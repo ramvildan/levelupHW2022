@@ -1,9 +1,10 @@
 package ru.levelup.homework5;
 
 import ru.levelup.homework5.dto.Temperature;
+import ru.levelup.homework5.type.TemperatureType;
 
 public interface TemperatureReceiver {
 
-    void convert(Temperature temperature);
+    Temperature convert(Temperature temperatureToConvert, TemperatureType fromType, TemperatureType toType);
 
 }
