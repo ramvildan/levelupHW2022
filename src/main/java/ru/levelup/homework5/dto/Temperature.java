@@ -9,5 +9,5 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class Temperature {
 
-    private Long inputTemperature;
+    private double inputTemperature;
 }

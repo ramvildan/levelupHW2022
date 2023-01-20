@@ -9,7 +9,7 @@ import ru.levelup.homework5.type.TemperatureType;
 public class KelvinToFahrenheitConverter implements TemperatureReceiver {
 
     @Override
-    public Temperature convert(Temperature temperatureToConvert, TemperatureType fromType, TemperatureType toType) {
-        return null;
+    public Temperature convert(Temperature temp) {
+        return new Temperature(temp.getInputTemperature() - 459.67);
     }
 }

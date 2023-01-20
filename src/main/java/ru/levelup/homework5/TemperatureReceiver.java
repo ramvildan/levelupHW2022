@@ -5,6 +5,6 @@ import ru.levelup.homework5.type.TemperatureType;
 
 public interface TemperatureReceiver {
 
-    Temperature convert(Temperature temperatureToConvert, TemperatureType fromType, TemperatureType toType);
+    Temperature convert(Temperature temp);
 
 }
