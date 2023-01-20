@@ -10,6 +10,6 @@ public class CelsiusToFahrenheitConverter implements TemperatureReceiver {
 
     @Override
     public Temperature convert(Temperature temp) {
-        return new Temperature(temp.getInputTemperature() + 32);
+        return new Temperature(temp.getInputTemperature() * 9/5 + 32);
     }
 }

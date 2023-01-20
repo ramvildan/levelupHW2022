@@ -10,6 +10,6 @@ public class KelvinToFahrenheitConverter implements TemperatureReceiver {
 
     @Override
     public Temperature convert(Temperature temp) {
-        return new Temperature(temp.getInputTemperature() - 459.67);
+        return new Temperature((temp.getInputTemperature() - 273.15) * 9/5 + 32);
     }
 }
