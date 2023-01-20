@@ -18,32 +18,32 @@ public class Application {
 
         if (fromType == TemperatureType.CELSIUS && toType == TemperatureType.FAHRENHEIT) {
             CelsiusToFahrenheitConverter converter = context.getBean(CelsiusToFahrenheitConverter.class);
-            converter.convert(temperature);
+            System.out.println(temperature.getInputTemperature() + " Celsius = " + converter.convert(temperature).getInputTemperature() + " Fahrenheit");
         }
 
         if (fromType == TemperatureType.CELSIUS && toType == TemperatureType.KELVIN) {
             CelsiusToKelvinConverter converter = context.getBean(CelsiusToKelvinConverter.class);
-            converter.convert(temperature);
+            System.out.println(temperature.getInputTemperature() + " Celsius = " + converter.convert(temperature).getInputTemperature() + " Kelvin");
         }
 
         if (fromType == TemperatureType.KELVIN && toType == TemperatureType.CELSIUS) {
             KelvinToCelsiusConverter converter = context.getBean(KelvinToCelsiusConverter.class);
-            converter.convert(temperature);
+            System.out.println(temperature.getInputTemperature() + " Kelvin = " + converter.convert(temperature).getInputTemperature() + " Celsius");
         }
 
         if (fromType == TemperatureType.KELVIN && toType == TemperatureType.FAHRENHEIT) {
             KelvinToFahrenheitConverter converter = context.getBean(KelvinToFahrenheitConverter.class);
-            converter.convert(temperature);
+            System.out.println(temperature.getInputTemperature() + " Kelvin = " + converter.convert(temperature).getInputTemperature() + " Fahrenheit");
         }
 
         if (fromType == TemperatureType.FAHRENHEIT && toType == TemperatureType.KELVIN) {
             FahrenheitToKelvinConverter converter = context.getBean(FahrenheitToKelvinConverter.class);
-            converter.convert(temperature);
+            System.out.println(temperature.getInputTemperature() + " Fahrenheit = " + converter.convert(temperature).getInputTemperature() + " Kelvin");
         }
 
         if (fromType == TemperatureType.FAHRENHEIT && toType == TemperatureType.CELSIUS) {
             FahrenheitToCelsiusConverter converter = context.getBean(FahrenheitToCelsiusConverter.class);
-            converter.convert(temperature);
+            System.out.println(temperature.getInputTemperature() + " Fahrenheit = " + converter.convert(temperature).getInputTemperature() + " Celsius");
         }
     }
 }
